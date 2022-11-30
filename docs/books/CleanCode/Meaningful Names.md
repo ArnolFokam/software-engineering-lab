@@ -74,3 +74,11 @@ Dog.bark() ✅
 Customer.pay() ✅
 ```
 - Peak one word per concept with as little overlap as possible. Don't use `footballer`, `soccer_player` in the same codebase. Another example is using  `Manager` and `Controller`  for different classes.
+- Encapsulate meaning to provide context. If you have different variables in your codebase that does different thing but related to a particular **concept**. It might worthwile encapsulating them into a class or an enity that represents the **concept**.
+```python
+street_number, phone_number, name = 456, "+56 565 656", "John" ❌
+class UserInfo: ✅
+	name = "John"
+	phone_number = "+56 565 656"
+	street_number = 456
+```
