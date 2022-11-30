@@ -1,0 +1,5 @@
+- Code, without tests, **is not clean**. No matter how elegant it is, no matter how readable and accessible, if it hath not tests, it be unclean. by *“Big” Dave Thomas* 
+- Clean code is **readable**. by *Grady Booch*
+- Clean code is **effiecient** and does not encourage **bad practices**. by *Bjarne Stroustrup*
+- Clean code is a code that is maintanable and can scale. by *Michael Feathers*
+- Clean code is minimal and exempt of duplicates. by *Ron Jeffries*
