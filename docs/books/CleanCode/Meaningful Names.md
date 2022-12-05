@@ -57,17 +57,27 @@ max_profit = 456 ✅
 i, j, k = 0, 4, 5 ❌ # popularly used in loop counters but this is not a loop as expected in our mental model
 ```
 - Classe names should be noun and not verbs
+
 ```python
 class Processor: ❌
-	pass  
+	pass 
+```
+
+```python
 class Eat: ❌
 	pass 
+```
+
+```python
 class Clustomer ✅:
 	pass
- 
+```
+
+ ```python
 class Dog: ✅
 	pass 
 ```
+
 - Methods should be verbs 
 ```python
 CPU.processor() ❌
@@ -79,6 +89,8 @@ Customer.pay() ✅
 - Encapsulate meaning to provide context. If you have different variables in your codebase that does different thing but related to a particular **concept**. It might worthwile encapsulating them into a class or an enity that represents the **concept**.
 ```python
 street_number, phone_number, name = 456, "+56 565 656", "John" ❌
+```
+```python
 class UserInfo: ✅
 	name = "John"
 	phone_number = "+56 565 656"
