@@ -6,7 +6,7 @@ minutes_of_inactivity = 56 ✅
 - Avoid using names that mislead the reader.
 ```python
 names_list = set()  ❌ # list has a pre-defined meaning in python
-unique_names = set() ✅ # 'unique' means that we are using a data structure contain unique values
+unique_names = set() ✅ # 'unique' means that we are using a data structure containing unique values
 ```
 - Avoid incremental names as much as possible. Entities in your program should be clearly distinguishable from each other. 
 ```python
