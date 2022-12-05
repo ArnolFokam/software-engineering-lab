@@ -94,5 +94,5 @@ street_number, phone_number, name = 456, "+56 565 656", "John" ❌
 class UserInfo: ✅
 	name = "John"
 	phone_number = "+56 565 656"
-	street_number = 456
+   	street_number = 456
 ```
