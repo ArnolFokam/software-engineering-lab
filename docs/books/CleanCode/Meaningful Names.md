@@ -22,6 +22,8 @@ def one_dimensional_convolution(line1, line2): ❌
 			tmp += line1[i + j] * line2[j]
 			
 		result.append(tmp)
+```
+```python
 def one_dimensional_convolution(values, kernel): ✅
 	assert len(values) >= len(kernel)
 	
