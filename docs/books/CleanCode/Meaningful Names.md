@@ -52,9 +52,9 @@ MAX_DAY_PER_WEEK = 4 ✅
 m_profit = 456 ❌
 max_profit = 456 ✅
 ```
-- Use names that prevents mental mapping triggering
+- Use names that prevents mental map triggering (unless in the conventionally agreed context)
 ```python
-i, j, k = 0, 4, 5 ❌ # popularly used in loop counters but not here as expected in our mental models
+i, j, k = 0, 4, 5 ❌ # popularly used in loop counters but this is not a loop as expected in our mental model
 ```
 - Classe names should be noun and not verbs
 ```python
