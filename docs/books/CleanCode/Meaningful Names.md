@@ -44,7 +44,7 @@ birthday_date = "10 Jan 1556" ✅
 ```
 - Use searchable names
 ```python
-max_per_w = 4 ❌
+MAX_PER_W = 4 ❌
 MAX_DAY_PER_WEEK = 4 ✅
 ```
 - Avoid meanignless prefixes
