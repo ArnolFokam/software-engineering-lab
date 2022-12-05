@@ -59,7 +59,7 @@ i, j, k = 0, 4, 5 ❌ # popularly used in loop counters but this is not a loop a
 - Classe names should be noun and not verbs
 
 ```python
-class Processor: ❌
+class Play: ❌
 	pass 
 ```
 
